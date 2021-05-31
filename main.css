@@ -1,0 +1,477 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    height: 90px;
+    width: 90px;
+}
+
+
+/* Dropdown Button */
+.dropdownbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom: black;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 87px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      background-color: #ddd;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropdownbtn {
+      background-color: cadetblue;
+      border-radius: 10px 10px 0px 0px;
+      color: white;
+    }
+
+  .nav-bar{
+      display: flex;
+      float: right;
+      padding: 16px 16px;
+      margin-top: -85px;
+      align-items:flex-end;
+      margin-right: 20%;
+  }
+
+  #video{
+      margin-top: -10px;
+      font-size: 20px;
+      padding: 10px;
+  }
+
+  #video:hover{
+      background-color:cadetblue ;
+      border-radius: 10px ;
+      color: white;
+  }
+
+  .btn{
+      background-color: cadetblue;
+      color: white;
+      border: thin black;
+      border-radius: 10px;
+      float:right;
+      padding: 16px 60px;
+      margin-top: -70px;
+      margin-right: 16px;
+  }
+
+  .btn:hover{
+     background-color:rgb(54, 132, 134) ;
+     box-shadow: 4px 4px 2px rgb(173, 172, 172);
+  }
+
+  .vagen_img{
+      height: 550px;
+      width: 1349px;
+      position: absolute;
+      z-index: -1;
+      opacity: 0.7;
+  }
+
+  .template_text{
+     position: absolute;
+     text-align: center;
+     margin: auto;
+     width: 50%;
+     top: 50%;
+     left: 25%;
+     font-size: 20px;
+  }
+
+  .sec1{
+    background-color: coral;
+    height: 500px;
+    width: 337px;
+    float: right;
+ 
+  }
+
+  .sec2{
+    background-color: rgb(145, 177, 236);
+    height: 500px;
+    width: 337px;
+    float: right;
+  }
+
+  .sec3{
+    background-color: rgb(230, 191, 94);
+    height: 500px;
+    width: 337px;
+    float: right;
+  }
+
+  .sec4{
+    background-color: rgb(144, 214, 144);
+    height: 500px;
+    width: 337px;
+    float: right;
+  }
+
+  .steps-container{
+    display: inline;
+    position: absolute;
+    top: 643px;
+  }
+
+
+
+  .sec1 img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 140px;
+    top: 40px;
+  }
+ 
+  .sec2 img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 480px;
+    top: 40px;
+  }
+
+  .sec3 img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+   left: 480px;
+    top: 40px;
+  }
+
+  .sec4 img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 140px;
+    top: 40px;
+  }
+
+  .steps-container img:hover{
+    height: 80px;
+    width: 80px;
+  }
+
+  .sec1 h1{
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .sec2 h1{
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .sec3 h1{
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .sec4 h1{
+    text-align: center;
+    margin-top: 200px;
+  }
+ 
+  .sec1 p{
+    margin-top: 60px;
+    width: 300px;
+    text-align: center;
+    opacity: 0.6;
+    margin-left: 20px;
+  }
+
+  .sec2 p{
+    margin-top: 60px;
+    width: 300px;
+    text-align: center;
+    opacity: 0.6;
+    margin-left: 20px;
+  }
+
+  .sec3 p{
+    margin-top: 60px;
+    width: 300px;
+    text-align: center;
+    opacity: 0.6;
+    margin-left: 20px;
+  }
+
+  .sec4 p{
+    margin-top: 60px;
+    width: 300px;
+    text-align: center;
+    opacity: 0.6;
+    margin-left: 20px;
+  }
+
+  .sub_head{
+    margin-top: 1170px;
+    text-align: center;
+  }
+
+  h2{
+     font-family:'Times New Roman', Times, serif;
+     color : rgb(37, 150, 37);
+     font-weight: lighter;
+     padding: 18px;
+     margin-top: -20px;
+     }
+
+   .sub_head h1{
+    font-size: 60px;
+  }   
+
+  .sub_head p{
+    margin-top: 15px;
+    opacity: 0.8;
+  }
+
+.feedback_container{
+    margin: 70px;
+    align-items: center;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 4px 20px 4px;
+    background-color: rgb(243, 240, 240);
+  }
+
+  .feedback_container:hover{
+    box-shadow: 6px 6px 4px  grey;
+  }
+
+div.feedback_container img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+div.feedback_container p{
+  padding: 15px;
+  text-align: center;
+  margin: 40px;
+}
+
+div.feedback_container h3{
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.berry_img{
+  height: 700px;
+  width: 947px;
+  
+}
+
+.form_container{
+  background-color: white;
+  border: thin black solid;
+  margin-top: -704px;
+  height: 698px;
+  width: 400px;
+  float: right;
+  background-image: url("straw.jpg");
+  
+}
+
+.form_container h1{
+  color: black;
+  margin-top: 220px;
+  font-size: 50px;
+  margin-left: 20%;
+}
+
+.form_container p{
+  color:black;
+  width: 280px;
+  text-align: center;
+  margin-left: 10%;
+  padding: 15px;
+}
+
+.form_container input[type=Email]{
+  height: 20px;
+  width: 240px;
+  margin-left: 60px;
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: rgb(226, 223, 223);
+  padding: 15px;
+}
+
+.subscribe-btn{
+  height: 40px;
+  width: 140px ;
+ margin-left: 60px ;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: red;
+  font-weight: bolder;
+  border-color: red;
+}
+.review-container{
+  background-color: rgb(196, 221, 230);
+  height: 200px;
+  width: 100%;
+  margin-top: -5px;
+}
+.review{
+  float: left;
+  padding: 15px;
+  text-align: center;
+  margin: 50px;
+  margin-left: 120px;
+ 
+}
+
+.review pre{
+  font-size: 40px;
+  text-shadow:2px 2px 4px grey;
+}
+
+.review p{
+  color: rgb(18, 173, 179);
+  font-weight: bolder;
+}
+
+.video h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 80px;
+  font-family:sans-serif;
+  color: rgb(55, 224, 55);
+  text-shadow: 3px 3px 4px green;
+}
+
+.video iframe{
+  margin-top: 30px;
+  margin-left: 20%;
+  border-radius: 10px;
+}
+
+.form-section{
+  width: 50%;
+  height: 600px;
+  float: left;
+  margin-top: 90px;
+  font-weight: bolder;
+}
+
+
+.form-section h1{
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.addressinfo{
+  margin-left: 100px;
+}
+
+.getintouch{
+  margin-left: 100px;
+}
+
+.getintouch_form input[type=text]{
+   height: 20px;
+   width: 400px;
+   padding: 8px;
+   margin-top: 20px;
+   border-radius: 5px;
+   background-color: rgb(234, 241, 250);
+   font-weight: bold;
+}
+
+.getintouch_form input[type=email]{
+  height: 20px;
+   width: 400px;
+   padding: 8px;
+   margin-top: 20px;
+   border-radius: 5px;
+   background-color: rgb(234, 241, 250);
+   font-weight: bold;
+}
+
+.getintouch_form textarea{
+  height: 20px;
+   width: 400px;
+   padding: 8px;
+   margin-top: 20px;
+   border-radius: 5px;
+   background-color: rgb(234, 241, 250);
+   font-weight: bold;
+   border: solid black 2px;
+}
+
+.getintouch_form button{
+  margin-top: 50px;
+  padding: 10px;
+  width: 200px;
+  background-color: rgb(124, 187, 29);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  height: 100px;
+  margin-top: 660px;
+}
+
+@media screen and (max-width: 720px;){
+  .btn{
+    float: right;
+  }
+  body{
+    background-color: blueviolet;
+  }
+}
+  
+}
+
