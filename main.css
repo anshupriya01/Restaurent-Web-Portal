@@ -460,18 +460,7 @@ footer{
   text-align: center;
   color: white;
   font-weight: bold;
-  height: 100px;
+  height: 250px;
   margin-top: 660px;
-}
-
-@media screen and (max-width: 720px;){
-  .btn{
-    float: right;
-  }
-  body{
-    background-color: blueviolet;
-  }
-}
   
 }
-
